@@ -74,7 +74,7 @@ function writePassword (number) {
       /* use the += when you're adding a value into a string */
       pwd += randomChar
     }
-    console.log(pwd)
+    alert("This is your password: " + pwd);
 
   }
 // Add event listener to generate button
