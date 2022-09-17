@@ -30,6 +30,8 @@ Using Javascript we have met all critera;s that was given above. The webpage is 
 
 - Once the webpage is opened, users are then able to click on the generate password button. This will prompt a series of questions before generating a random password for the users. Atleast one of the following criteria's must be met to create a password!
 
+To navigate to the Password Generator click the link below!
+https://dianasjourney.github.io/Create-Your-Password/
 ### Credit
 https://github.com/DianasJourney
 
