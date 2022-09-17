@@ -65,7 +65,6 @@ function writePassword (number) {
   }
 
   let pwd = ''
-  if (upperC === true) {
     for (let i = 0; i < passLength; i++) {
       /* once math.random function generates a random number within the uppercaseletter index it is then stored in the variable randomUpperC;*/
       let randomIndexGen = Math.floor(Math.random() * pool.length)
@@ -75,7 +74,8 @@ function writePassword (number) {
       /* use the += when you're adding a value into a string */
       pwd += randomChar
     }
+    console.log(pwd)
+
   }
-}
 // Add event listener to generate button
 generateBtn.addEventListener('click', writePassword)
